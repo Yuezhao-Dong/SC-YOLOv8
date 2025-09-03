@@ -1,0 +1,14 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:/ultralytics-main-improve/datasets/medicine bottle/split  # dataset root dir
+train: E:/ultralytics-main-improve/datasets/medicine bottle/split/images/train  # train images (relative to 'path') 4 images
+val: E:/ultralytics-main-improve/datasets/medicine bottle/split/images/val  # val images (relative to 'path') 4 images
+test: E:/ultralytics-main-improve/datasets/medicine bottle/split/images/test # test images (optional)
+
+
+nc: 2
+
+
+# Classes
+names:
+  0: cap
+  1: bottle
